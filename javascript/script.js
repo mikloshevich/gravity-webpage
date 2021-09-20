@@ -119,6 +119,7 @@ tSliderLeftBtn.addEventListener('click', function() {
 });
 
 window.addEventListener('load', function() {
+    document.body.style.opacity = 1;
     videoScreen.forEach((el, i)=> {
         el.style.width = `${servicesSliderVideos.offsetWidth * 0.74}px`;
     })
