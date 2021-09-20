@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    display: inline-block;
+}
+
+ul, ol, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    margin: 0;
+    font-size: inherit;
+    outline: none;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+::placeholder {
+    color: inherit;
+    font-family: sans-serif;
+}
+:focus::placeholder {
+    color: transparent;
+}
