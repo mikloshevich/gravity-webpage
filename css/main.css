@@ -15,6 +15,8 @@ body {
   background-color: whitesmoke;
   color: #212121;
   overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 a {
@@ -100,7 +102,6 @@ p, h1, h2, h3, h4, h5, h6 {
   transition: opacity 0.3s, transform 0.2s;
 }
 .header nav .nav-links a {
-  padding-bottom: 0.25rem;
   font-size: 16px;
   color: white;
 }
@@ -120,11 +121,13 @@ p, h1, h2, h3, h4, h5, h6 {
   .header nav .nav-links {
     flex-direction: column;
     background: whitesmoke;
-    top: 25px;
+    top: 30px;
     left: -300px;
   }
   .header nav .nav-links a {
     color: #212121;
+    font-size: 20px;
+    padding-bottom: 8px;
   }
   .header nav .nav-links a + a {
     padding-left: 0;
