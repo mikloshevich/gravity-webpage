@@ -28,8 +28,6 @@ body {
     background-color: $bg-color;
     color: $text-color-400;
     overflow: hidden;
-    opacity: 0;
-    transition: opacity 0.3s;
 }
 
 a {
@@ -1114,6 +1112,14 @@ p, h1, h2, h3, h4, h5, h6 {
     .footer-nav {
         font-size: 12px;
     }
+
+    .mik p {
+        font-size: 14px;
+    }
+
+    .mik a {
+        width: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1135,6 +1141,8 @@ p, h1, h2, h3, h4, h5, h6 {
             position: absolute;
             opacity: 0.12;
             height: 100%;
+            top: 0;
+            left: 0;
             img {
                 height: 100%;
             }
@@ -1144,7 +1152,9 @@ p, h1, h2, h3, h4, h5, h6 {
             padding-top: 0;
             padding: 0 10px 10px;
             .hero-title {
+                padding-top: 20px;
                 margin: 0 0 20px;
+                text-align: center;
             }
         }
     }
@@ -1262,6 +1272,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
     .testimonials-paragraph {
         font-size: 14px;
+    }
+
+    .clients {
+        margin-bottom: 150px;
     }
 
     .footer-logo {
